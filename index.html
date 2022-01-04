@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BT">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Perguntas Aleatórias</title>
+    </head>
+    <body>
+        <div class="background" id="background">
+            <header>
+                <h1>Perguntas<br>Aleatórias</h1>
+            </header>
+            <hr/>
+            <section id="userData">
+                <h3>Digite seu nome para começar!</h3>
+                <fieldset>
+                    <label for="userName">
+                        Nome: <input type="text" name="userName" id="userName" placeholder="Seu nome...">
+                    </label>
+                    <input type="button" value="Começar" class="send-button" id="send">
+                </fieldset>
+            </section>
+            
+            <section id="questions" class="none">
+                <form>
+                    <fieldset>
+                        <legend>
+                            <span>Você gostaria de ser um elefante colorido voador gigante?</span>
+                        </legend>
+                        <label for="opt1Quest1" class="option opt1Quest1">
+                            <input type="radio" name="optQuest1" id="opt1Quest1"><span>Não</span>
+                        </label>
+                        <br>
+                        <label for="opt2Quest1" class="option opt2Quest1">
+                            <input type="radio" name="optQuest1" id="opt2Quest1"><span>Sim, óbvio, quem não gostaria de ser</span>
+                        </label>
+                        <br>
+                        <label for="opt3Quest1" class="option opt3Quest1">
+                            <input type="radio" name="optQuest1" id="opt3Quest1"><span>Que desgraça é essa??</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <span>Quer ser meu onii chan? &#62;w&#60;</span>
+                        </legend>
+                        <label for="opt1Quest2" class="option opt1Quest2">
+                            <input type="radio" name="optQuest2" id="opt1Quest2"><span>Sim&#62;&#60;</span>
+                        </label>
+                        <br>
+                        <label for="opt2Quest2" class="option opt2Quest2">
+                            <input type="radio" name="optQuest2" id="opt2Quest2"><span>Que isso</span>
+                        </label>
+                        <br>
+                        <label for="opt3Quest2" class="option opt3Quest2">
+                            <input type="radio" name="optQuest2" id="opt3Quest2"><span>Se manca caralho</span>
+                        </label>
+                    </fieldset> 
+
+                    <fieldset>
+                        <legend>
+                            <span>Sabe o Mário?</span>
+                        </legend>
+                        <label for="opt1Quest3" class="option opt1Quest3">
+                            <input type="radio" name="optQuest3" id="opt1Quest3"><span>Aquele que te comeu atrás dos armário</span>
+                        </label>
+                        <br>
+                        <label for="opt2Quest3" class="option opt2Quest3">
+                            <input type="radio" name="optQuest3" id="opt2Quest3"><span>Ques Mário?</span>
+                        </label>
+                        <br>
+                        <label for="opt3Quest3" class="option opt3Quest3">
+                            <input type="radio" name="optQuest3" id="opt3Quest3"><span>Encanador?</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <span>Seu pai usa calcinha?</span>
+                        </legend>
+                        <label for="opt1Quest4" class="option opt1Quest4">
+                            <input type="radio" name="optQuest4" id="opt1Quest4"><span>Sim, e eu também =&#41;</span>
+                        </label>
+                        <br>
+                        <label for="opt2Quest4" class="option opt2Quest4">
+                            <input type="radio" name="optQuest4" id="opt2Quest4"><span>Sim, o teu também, inclusive comi ele ontem</span>
+                        </label>
+                        <br>
+                        <label for="opt3Quest4" class="option opt3Quest4">
+                            <input type="radio" name="optQuest4" id="opt3Quest4"><span>Pra que quer saber??</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <span>Você quer brincar na neveee?</span>
+                        </legend>
+                        <label for="opt1Quest5" class="option opt1Quest5">
+                            <input type="radio" name="optQuest5" id="opt1Quest5"><span>Um boneco quer fazeeer?</span>
+                        </label>
+                        <br>
+                        <label for="opt2Quest5" class="option opt2Quest5">
+                            <input type="radio" name="optQuest5" id="opt2Quest5"><span>Você quer tomar no cuuu&#128541;</span>
+                        </label>
+                        <br>
+                        <label for="opt3Quest5" class="option opt3Quest5">
+                            <input type="radio" name="optQuest5" id="opt3Quest5"><span>Como oce enquanto nois sobe o Everest</span>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            <span>Qual animal fêmea tem um pseudo pênis?</span>
+                            <sub>essa e para os intelectuais</sub>
+                        </legend>
+                        <label for="opt1Quest6" class="option opt1Quest6">
+                            <input type="radio" name="optQuest6" id="opt1Quest6"><span>Queizokkjk</span>
+                        </label>
+                        <br>
+                        <label for="opt2Quest6" class="option opt2Quest6">
+                            <input type="radio" name="optQuest6" id="opt2Quest6"><span>Baleia</span>
+                        </label>
+                        <br>
+                        <label for="opt3Quest6" class="option opt3Quest6">
+                            <input type="radio" name="optQuest6" id="opt3Quest6"><span>Hiena</span>
+                        </label>
+                    </fieldset>
+                </form>
+                <input type="button" value="Confirmar Respostas" class="confirm-button" id="confirmButton">
+                <input type="button" value="Refazer quiz" class="reload-button none" id="reloadButton">
+                <div class="result none" id="result">
+                    <span id="res"></span>
+                </div>
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
