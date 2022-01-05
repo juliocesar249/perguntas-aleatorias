@@ -1,0 +1,481 @@
+@media screen and (min-width: 375px) and (min-height: 667px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    label[for="userName"] {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    #userName {
+        width: 200px;
+        padding: 2px 5px;
+        font-size: 20px;
+    }
+
+    .send-button {
+        margin-top: 120px;
+    }
+
+    fieldset {
+        font-size: 24px;
+    }
+
+    .option {
+        margin-right: 10px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 24px;
+    }
+
+    .confirm-button {
+        margin-left: 17%;
+    }
+
+    .reload-button {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (min-width: 414px) and (min-height: 896px) {
+    h1 {
+        font-size: 60px;
+        padding-top: 35px;
+    }
+
+    hr {
+        margin: 35px 0;
+    }
+
+    h3 {
+        font-size: 42px;
+        margin: 120px 10px 60px;
+    }
+
+    label[for="userName"] {
+        margin-top: 20px;
+        font-size: 36px;
+    }
+
+    #userName {
+        width: 250px;
+        padding: 4px 7px;
+        font-size: 26px;
+    }
+
+    input[type="button"] {
+        font-size: 26px;
+        border-width: 3px;
+        box-shadow: 2px 2px 5px #000;;
+    }
+
+    .send-button {
+        margin-top: 165px;
+    }
+
+    fieldset {
+        font-size: 34px;
+    }
+
+    .option {
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    input[type="radio"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 32px;
+    }
+
+    .confirm-button {
+        font-size: 5px;
+        margin-left: 9%;
+    }
+
+    .reload-button {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (min-width: 360px) and (min-height: 780px) {
+    h1 {
+        font-size: 50px;
+        padding-top: 35px;
+    }
+
+    hr {
+        margin: 35px 0;
+    }
+
+    h3 {
+        font-size: 36px;
+        margin: 100px 10px 60px;
+    }
+
+    label[for="userName"] {
+        margin-top: 20px;
+        font-size: 28px;
+    }
+
+    #userName {
+        width: 250px;
+        padding: 4px 7px;
+        font-size: 24px;
+    }
+
+    input[type="button"] {
+        font-size: 22px;
+        border-width: 3px;
+        box-shadow: 2px 2px 5px #000;;
+    }
+
+    .send-button {
+        margin-top: 165px;
+    }
+
+    fieldset {
+        font-size: 30px;
+    }
+
+    .option {
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+    }
+
+    input[type="radio"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 28px;
+    }
+
+    .confirm-button {
+        margin-left: 9%;
+    }
+
+    .reload-button {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (min-width: 720px) and (min-height: 1560px) {
+    h1 {
+        font-size: 100px;
+        padding-top: 35px;
+    }
+
+    hr {
+        margin: 35px 0;
+    }
+
+    h3 {
+        font-size: 70px;
+        margin: 100px 10px 60px;
+    }
+
+    label[for="userName"] {
+        margin-top: 190px;
+        font-size: 60px;
+    }
+
+    #userName {
+        width: 400px;
+        padding: 4px 7px;
+        font-size: 48px;
+        border: solid transparent 8px;
+    }
+
+    input[type="button"] {
+        font-size: 40px;
+        border-width: 3px;
+        box-shadow: 2px 2px 5px #000;;
+    }
+
+    .send-button {
+        margin-top: 365px;
+    }
+
+    fieldset {
+        font-size: 58px;
+    }
+
+    .option {
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-width: 6px;
+    }
+
+    input[type="radio"] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 50px;
+    }
+
+    .confirm-button {
+        margin-left: 15%;
+    }
+
+    .reload-button {
+        margin-left: 13rem;
+    }
+}
+
+@media screen and (min-width: 828px) and (min-height: 1792px) {
+    h1 {
+        font-size: 120px;
+        padding-top: 35px;
+    }
+
+    hr {
+        margin: 35px 0;
+    }
+
+    h3 {
+        font-size: 100px;
+        margin: 100px 10px 60px;
+    }
+
+    label[for="userName"] {
+        margin-top: 220px;
+        font-size: 70px;
+    }
+
+    #userName {
+        width: 460px;
+        padding: 4px 7px;
+        font-size: 56px;
+        border: solid transparent 10px;
+    }
+
+    input[type="button"] {
+        font-size: 56px;
+        border-width: 3px;
+        box-shadow: 2px 2px 5px #000;
+    }
+
+    .send-button {
+        margin-top: 365px;
+    }
+
+    fieldset {
+        font-size: 66px;
+    }
+
+    .option {
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-width: 8px;
+    }
+
+    input[type="radio"] {
+        width: 36px;
+        height: 36px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 62px;
+    }
+
+    .confirm-button {
+        margin-left: 8%;
+    }
+
+    .reload-button {
+        margin-left: 13rem;
+    }
+}
+
+@media screen and (min-width: 1080px) and (min-height: 2340px) {
+    h1 {
+        font-size: 166px;
+        padding-top: 35px;
+    }
+
+    hr {
+        margin: 35px 0;
+    }
+
+    h3 {
+        font-size: 120px;
+        margin: 290px 10px 60px;
+    }
+
+    label[for="userName"] {
+        margin-top: 220px;
+        font-size: 90px;
+    }
+
+    #userName {
+        width: 658px;
+        padding: 4px 7px;
+        font-size: 76px;
+        border: solid transparent 14px;
+        border-radius: 20px;
+    }
+
+    input[type="button"] {
+        font-size: 76px;
+        border-width: 8px;
+        box-shadow: 2px 2px 5px #000;
+    }
+
+    .send-button {
+        margin-top: 365px;
+    }
+
+    fieldset {
+        font-size: 96px;
+    }
+
+    legend {
+        margin-bottom: 6px;
+    }
+
+    .option {
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-width: 10px;
+        border-radius: 30px;
+    }
+
+    input[type="radio"] {
+        width: 56px;
+        height: 56px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 82px;
+    }
+
+    .confirm-button {
+        margin-left: 7%;    
+    }
+
+    .reload-button {
+        margin-left: 15rem;
+    }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .background {
+        padding-bottom: 1px;
+        height: 100%;
+    }
+    
+    h1 {
+        font-size: 166px;
+        padding-top: 35px;
+    }
+
+    hr {
+        margin: 35px 0;
+    }
+
+    h3 {
+        font-size: 120px;
+        margin: 290px 10px 60px;
+    }
+
+    label[for="userName"] {
+        margin-top: 220px;
+        font-size: 90px;
+    }
+
+    #userName {
+        width: 658px;
+        padding: 4px 7px;
+        font-size: 76px;
+        border: solid transparent 14px;
+        border-radius: 20px;
+    }
+
+    input[type="button"] {
+        font-size: 76px;
+        border-width: 8px;
+        box-shadow: 2px 2px 5px #000;
+    }
+
+    .send-button {
+        margin-top: 365px;
+    }
+
+    fieldset {
+        font-size: 96px;
+    }
+
+    legend {
+        margin-bottom: 6px;
+    }
+
+    .option {
+        margin-right: 10px;
+        padding-bottom: 10px;
+        border-width: 10px;
+        border-radius: 26px;
+    }
+
+    input[type="radio"] {
+        width: 56px;
+        height: 56px;
+    }
+
+    .result {
+        text-align: center;
+    }
+
+    .result span {
+        font-size: 82px;
+    }
+
+    .confirm-button {
+        margin-left: 25%;    
+    }
+
+    .reload-button {
+        margin-left: 43rem;
+    }
+}
